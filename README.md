@@ -3,7 +3,8 @@
 > 본 문서는 [GitHub Flavored Markdown Spec](https://github.github.com/gfm/#disallowed-raw-html-extension-)를 바탕으로 쓰여졌습니다.
 ## 표(Tables)
 
-GFM에서는 **표**를 사용할 수 있다. 표는 ***하나의 header행, header행과 다른 data를 구분하는 구분자행 그리고 0개 이상의 행***들로 이루어진 **행과 열로 정리되어있는 데이터들**이다.  
+GFM에서는 **표**를 사용할 수 있다.  
+표는 **하나의 header행, header행과 다른 data를 구분하는 구분자행 그리고 0개 이상의 행**들로 이루어진 **행과 열로 정리되어있는 데이터들**이다.  
 > header 행의 경우 하이픈(-)으로 나누고, 파이프(|)로 각 열을 구분한다. 
 
 예시1 - 기본 형태  
