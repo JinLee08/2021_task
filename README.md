@@ -4,10 +4,9 @@
 ## 표(Tables)
 
 GFM에서는 **표**를 사용할 수 있다. 표는 ***하나의 header행, header행과 다른 data를 구분하는 구분자행 그리고 0개 이상의 행***들로 이루어진 **행과 열로 정리되어있는 데이터들**이다.  
-> 첫번째 행의 경우 하이픈(-)으로 나누고, 파이프(|)로 각 열을 구분한다. 
+> header 행의 경우 하이픈(-)으로 나누고, 파이프(|)로 각 열을 구분한다. 
 
-
-예시1  
+예시1 - 기본 형태  
 
     | foo | bar |  
     | --- | --- |  
@@ -32,6 +31,8 @@ bar | baz
 > 한 열의 길이가 일치 할 필요는 없지만 일치할 경우 읽기가 더 쉽다.
 >> *셀의 너비는 일치하지 않아도 괜찮지만* ***heder row의 각 열에는 최소 3개의 하이픈(---)이 있어야 한다.***   
 
+> 더 다양한 예시는 [Tables(extension)](https://github.github.com/gfm/#tables-extension-)을 참고하자  
+
 ---
 ## 작업 목록 항목(Task list items)
 GFM은 **tasklist 확장기능을 사용할 수 있다.**  
@@ -40,7 +41,7 @@ GFM은 **tasklist 확장기능을 사용할 수 있다.**
 > - 표시란의 괄호 안이 공백이면[ ] checkbox에는 check가 되어 있지 않다.
 > - 표시란의 괄호 안이 공백이 아니면[X] checkbox에는 check가 되어 있다.  
 
-예시1  
+예시1 - 기본형태   
 
 
     - [ ] foo
@@ -63,7 +64,7 @@ GFM은 **tasklist 확장기능을 사용할 수 있다.**
   - [x] baz
 - [ ] bim
 
-> 더 다양한 예시는 [Tables(extension)](https://github.github.com/gfm/#tables-extension-)을 
+
 
 ---  
 ## 취소선(Strikethrough)  
